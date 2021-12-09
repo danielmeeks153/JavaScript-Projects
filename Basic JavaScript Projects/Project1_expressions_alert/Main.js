@@ -12,7 +12,9 @@ var a = " one", b = " two", c = " three";
 var a = a.fontcolor("blue"); 
 document.write(a); 
 
-document.write(3+30); 
+var five = 5 
+var six = 6 
+document.write("five = six"); 
 
 
 function My_First_Function() {//defining the name of the function 
