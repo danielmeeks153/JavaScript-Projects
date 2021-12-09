@@ -14,7 +14,7 @@ document.write(a);
 
 var five = 5 
 var six = 6 
-document.write("five = six"); 
+document.write(five + six); 
 
 
 function My_First_Function() {//defining the name of the function 
