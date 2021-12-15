@@ -45,7 +45,7 @@ window.alert(Math.random()); //using the math.random function
 window.alert(Math.random() * 100);  
 window.alert(Math.PI); 
  
-function my_Dictionary() {
+function my_Dictionary() { //project4 start 
     var Animal = {
         Species:"Dog", 
         Color:"Black", 
@@ -53,5 +53,6 @@ function my_Dictionary() {
         Age:5, 
         Sound:"Bark!"
     }; 
-    document.getElementById("Dictionary").innerHTML = Animal.Sound; 
+    delete Animal.Sound; 
+    document.getElementById("Dictionary").innerHTML = Animal.Species; 
 }
