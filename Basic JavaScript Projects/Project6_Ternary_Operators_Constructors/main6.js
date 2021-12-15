@@ -32,4 +32,27 @@ function Nested_Function() { //nested function that allows us to add one to a nu
         Plus_one();
         return Starting_point; 
     }
+} 
+
+//scope 
+
+var X = 10; //global variable
+function Add_numbers_1() {
+    document.write(20 + X + "<br>"); 
+} 
+function Add_numbers_2() {
+    document.write(X + 100); 
 }
+Add_numbers_1(); 
+Add_numbers_2();  
+
+function Add_numbers_1() {//local var
+    var X = 10; 
+    document.write(X + 20 + "<br>"); 
+}
+function Add_numbers_2() {
+    document.write(X + 100);
+} 
+Add_numbers_1(); 
+Add_numbers_2(); 
+
