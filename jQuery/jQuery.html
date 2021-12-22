@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>JQ</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    </head>
+        <script>
+            $(document).ready(function() {//showing that this is our function
+                $("html").append(//we want to change our html file 
+                    "<body>\
+                        <div id='container'>\
+                            <div id='inner'>\
+                                <h1>Basic JQ</h1>\
+                                <p id='1'>Par1</p>\
+                                <p id= '2'>Par2</p>\
+                                <p id = '3'>Par3</p>\
+                            </div>\
+                        </div>\
+                    </body>"
+                ); 
+                $("#2").css({"color":"red"});//adding css by playing the id of our p element 
+                $("#3").click(function() {//when we click on 3rd par it will hind our h1 
+                    $('h1').hide();
+                });
+            });
+        
+        
+        </script>
+
+</html>
