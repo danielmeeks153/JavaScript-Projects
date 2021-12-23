@@ -1,79 +1,66 @@
-# Project Title
+# AJAX Project 
 
-Simple overview of use/purpose.
-
-## Description
-
-An in-depth paragraph about your project and overview of use. 
-
-# Project Title
-
-Simple overview of use/purpose.
+Simple Ajax File
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+Starting to use AJAX
 
-# Project Title
+# Basic JavaScript Projects 
 
-Simple overview of use/purpose.
-
-## Description
-
-An in-depth paragraph about your project and overview of use.
-
-# Project Title
-
-Simple overview of use/purpose.
+Using certain JavaScript operators 
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+-Expression alerts 
+-functions 
+-math operators 
+-dictionaries 
+-comparisons type coercion 
+-Ternary Operators 
+-Scope time function
+-String Methods 
+-Countdown Slideshow 
+-GetelementByClassName
 
-# Project Title
+# Calculator
 
-Simple overview of use/purpose.
-
-## Description
-
-An in-depth paragraph about your project and overview of use.
-
-# Project Title
-
-Simple overview of use/purpose.
-
-## Description
-
-An in-depth paragraph about your project and overview of use.
-
-# Project Title
-
-Simple overview of use/purpose.
+JS Calculator project 
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+Using our JS skills to make a functioning calculator 
 
-# Project Title
+# Pizza Project 
 
-Simple overview of use/purpose.
-
-## Description
-
-An in-depth paragraph about your project and overview of use.
-
-# Project Title
-
-Simple overview of use/purpose.
+Using JS to Make simple menu 
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+Use JS to make a simple menu that we can add and take away certain parts of 
 
-# Project Title
+# React Projects 
 
-Simple overview of use/purpose.
+Using React 
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+Using React to build on the JS skills we have learned 
+
+# TicTacToe
+
+TicTacToe Game
+
+## Description
+
+Using JS to make a TicTacToe game that we play against the computer 
+
+# jQuery
+
+Start of using JQuery 
+
+## Description
+
+Beginning to use jQuery
+
+
