@@ -1,44 +1,43 @@
-//This variable keeps track of whose turn it is.
-let activePlayer = 'X';
-let selectedSquares = [];//This array stores an array of moves. We use this to determine win conditions.
+let activePlayer = 'X' 
+let selectedSquares = [];
 
-
-//This function is for placing an x or o in a square.
-function placeXOrO (squareNumber) {//This condition ensures a square hasn't been selected already.//The .some () method is used to check each element of selectedSquare array//to see if it contains the square number clicked on.
-    if (!selectedSquares.some(element => element.includes (squareNumber))) {//This variable retrieves the html element is that was clicked.
-        let select = document.getElementById(squareNumber);//This condition checks who's turn it is.
-        if (activePlayer === 'X') { //If activePlayer is equal to 'X', the x.png is placed in HTML.
-            select.style.backgroundImage = 'url("images/TicX.jpg")';//Active player may only be 'X' or 'o' so, if not 'X' it must be 'o'
-        } else {//If activePlayer is equal to 'o', the o.png is placed in HTML.
-            select.style.backgroundImage = 'url("images/TicO.jpg")';
+function placeXOrO(squareNumber) {
+    if(!selectedSquares.some(element => element.includes(squareNumber))) {
+        let select = document.getElementById(squareNumber);
+        if (activePlayer === 'X') {
+            select.style.backgroundImage = 'url("images/download.png")';
+        } else {
+            select.style.backgroundImage = 'url("images/download2.png")';
         }
 
-        selectedSquares.push(squareNumber + activePlayer);//This calls a function to check for any win conditions.
-        checkWinConditions(); //This condition is for changing the active player.
-        if (activePlayer === 'X') {//If active player is 'X' change it to 'o'.
-            activePlayer = '0'; //If active player is anything other than 'X'.
-        } else { //Change the activePlayer to 'X'
-        activePlayer = 'X'; //This function plays placement sound. 
-        
-        audio('./media/Sound1.wav'); 
-        if(activePlayer === 'O') {
+        selectedSquares.push(squareNumber + activePlayer);
+
+        checkWinConditions(); 
+
+        if (activePlayer === 'X') {
+            activePlayer = 'O';
+        } 
+        else {
+            activePlayer = 'X';
+        }
+
+        audio('./media/place.mp3'); 
+        if(activePlayer === 'O'){
             disableClick();
-            setTimeout(function () { computersTurn();}, 1000)
+            setTimeout(function () {computersTurn(); }, 1000)
         }
         return true;
-    } 
-
+    }
     function computersTurn() {
-        let success = false; 
+        let success = false;
         let pickASquare; 
-        while(!success) {
+        while(!success){
             pickASquare = String(Math.floor(Math.random() * 9));
-            if (placeXOrO(pickASquare)) {
+            if (placeXOrO(pickASquare)){
                 placeXOrO(pickASquare);
                 success = true;
-            }
+            };
         }
-    } 
     }
 } 
 
