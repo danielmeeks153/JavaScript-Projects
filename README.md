@@ -1,6 +1,79 @@
-# JavaScript-Projects- 
-Project Title
+# Project Title
+
 Simple overview of use/purpose.
 
-Description
+## Description
+
+An in-depth paragraph about your project and overview of use. 
+
+# Project Title
+
+Simple overview of use/purpose.
+
+## Description
+
+An in-depth paragraph about your project and overview of use.
+
+# Project Title
+
+Simple overview of use/purpose.
+
+## Description
+
+An in-depth paragraph about your project and overview of use.
+
+# Project Title
+
+Simple overview of use/purpose.
+
+## Description
+
+An in-depth paragraph about your project and overview of use.
+
+# Project Title
+
+Simple overview of use/purpose.
+
+## Description
+
+An in-depth paragraph about your project and overview of use.
+
+# Project Title
+
+Simple overview of use/purpose.
+
+## Description
+
+An in-depth paragraph about your project and overview of use.
+
+# Project Title
+
+Simple overview of use/purpose.
+
+## Description
+
+An in-depth paragraph about your project and overview of use.
+
+# Project Title
+
+Simple overview of use/purpose.
+
+## Description
+
+An in-depth paragraph about your project and overview of use.
+
+# Project Title
+
+Simple overview of use/purpose.
+
+## Description
+
+An in-depth paragraph about your project and overview of use.
+
+# Project Title
+
+Simple overview of use/purpose.
+
+## Description
+
 An in-depth paragraph about your project and overview of use.
